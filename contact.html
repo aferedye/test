@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./style/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="container_nav"><a href="./index.html" class="title_nav">Accueil</a></li>
+                <li class="container_nav"><a href="./projet.html" class="title_nav">Projet</a></li>
+                <li>
+                    <a href="./index.html">
+                        <img src="./assets/resizedLOGO.png" alt="Logo Antoine FEREDYE" id="logo">
+                    </a>
+                </li>
+                <li class="container_nav"><a href="./cv.html" class="title_nav">Curriculum vitæ</a></li>
+                <li class="container_nav"><a href="./contact.html" class="title_nav">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+       <section id="form">
+            <form method="post" action="mailto:aferedye@gmail.com" id="formBloc">
+                <fieldset>
+                    <legend class="white">Contactez moi</legend>
+                    <p class="white space">Compléter les champs ci dessous et cliquer sur envoyer !</p>
+                    <div>
+                        <input type="text" placeholder="Nom ..." class="textField">
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Prénom ..." class="textField">
+                    </div>
+                    <div>
+                        <input type="mail" placeholder="E-mail ..." class="textField">
+                    </div>
+                    <div>
+                        <select name="categories" id="selectField">
+                            <option value="">-- Choisissez une option  --</option>
+                            <option value="1">Développer un site et/ou application</option>
+                            <option value="2">Concevoir un site et/ou application</option>
+                            <option value="3">Effectuer une maintenance/mise à jour</option>
+                        </select>
+                    </div>
+                    <div>
+                        <textarea name="project" cols="30" rows="10" placeholder="Décrivez votre projet en quelque lignes ..." id="areaField"></textarea>
+                    </div>
+                    <div>
+                        <button id="formButton" type="submit">Envoyer !</button>
+                    </div>
+                </fieldset>
+                
+            </form>
+       </section>
+    </main>
+    <footer>
+        <ul>
+            <li><a href="https://github.com/aferedye"><img src="./assets/github.png" alt="Logo GITHUB"></a></li>
+            <li><a href="tel:[+33]620763448"><img src="./assets/telephone.png" alt="Logo téléphone portable"></a></li>
+            <li><a href="https://www.linkedin.com/in/antoine-feredye/"><img src="./assets/linkedin.png" alt="Logo LINKEDIN"></a></li>
+        </ul>
+    </footer>
+</body>
+</html>

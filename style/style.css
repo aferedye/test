@@ -1,0 +1,266 @@
+@font-face {
+    font-family: RalewayLight;
+    src: url(../font/Raleway-Light.ttf) format("truetype");
+}
+
+.white {
+    color: whitesmoke;
+}
+/* HEADER / NAVIGUATION */
+
+header {
+    width: 100%;
+    position: sticky;
+    background-image: url(../assets/fond.png);
+    background-size: cover ;
+    background-attachment: fixed;
+    margin: 0;
+    top: 0;
+
+}
+
+html, body {
+    margin: 0;
+    background-image: url(../assets/fond.png);
+    background-size: cover ;
+    background-attachment: fixed;
+}
+
+nav ul {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    border-bottom: 0.1px solid whitesmoke;
+}
+
+nav li {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#logo {
+    width: 19rem;
+}
+
+.container_nav {
+    margin-top: 1.7rem;
+}
+
+.title_nav {
+    text-decoration: none;
+    padding: 12px;
+    font-family: 'RalewayLight';
+    color: whitesmoke;
+}
+
+.title_nav:hover {
+    border-radius: 0.4rem;
+    box-shadow: -4px 1px 25px -10px whitesmoke;
+    color: #015D75;
+    
+}
+
+/* ACCUEIL */
+
+.mainBloc {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+section {
+    font-family: 'RalewayLight';
+    display: flex;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    
+}
+
+.imgAccueilL {
+    width: 30rem;
+    border-top-left-radius: 0.4rem;
+    border-bottom-left-radius: 0.4rem;
+}
+.imgAccueilR {
+    width: 30rem;
+    border-top-right-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
+}
+.fondTextR {
+    width: 100%;
+    background-color: #004455;
+    border-top-right-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
+}
+.fondTextL {
+    width: 100%;
+    background-color: #004455;
+    border-top-left-radius: 0.4rem;
+    border-bottom-left-radius: 0.4rem;
+}
+
+h1 {
+    text-align: center;
+}
+.textHome {
+    padding: 0.8rem;
+}
+
+/* FOOTER */
+
+footer {
+    border-top: 0.5px solid whitesmoke;
+}
+footer ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+footer li {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0.4rem;
+}
+
+footer li img {
+    width: 4rem;
+}
+
+/* CONTACT */
+
+#formBloc {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.5rem;
+}
+
+.textField {
+    width: 15.1rem;
+    height: 1.5rem;
+    border-radius: 1rem;
+    text-indent: 0.5rem;
+    background-color: #004455;
+    border: 0.5px solid whitesmoke;
+    color: whitesmoke;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+}
+
+
+
+.textField::placeholder {
+    color: whitesmoke;
+}
+
+#selectField {
+    height: 1.5rem;
+    border-radius: 1rem;
+    text-indent: 0.5rem;
+    background-color: #004455;
+    border: 0.5px solid whitesmoke;
+    color: whitesmoke;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+}
+
+#areaField {
+    width: 25rem;
+    border-radius: 0.2rem;
+    background-color: #004455;
+    border: 0.5px solid whitesmoke;
+    color: whitesmoke;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6em;
+    margin-bottom: 2rem;
+    padding: 0.4rem;
+    resize: none;
+}
+
+#areaField::placeholder {
+    color: whitesmoke;
+}
+
+#formButton {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #004455;
+    border: 0.5px solid whitesmoke;
+    color: whitesmoke;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.space {
+    margin-top: 2rem;
+    margin-bottom: 2.73rem;
+}
+
+/* CV */
+
+.techbloc {
+    background-color: #004455;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    display: block;
+    text-align: center;
+}
+
+.techbloc ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.jobbloc {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #004455;
+    padding: 1rem;
+    border-radius: 1rem;
+    justify-content: center;
+}
+
+.jobbloc > div {
+    width: 70%;
+}
+
+.otherbloc {
+    flex-direction: column;
+    align-items: center;
+    background-color: #004455;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.cvtitle {
+    font-family: 'RalewayLight';
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.button {
+    background-color: #004455;
+    width: max-content;
+    padding: 10px;
+    border-radius: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+    display: block;
+    text-decoration: none;
+}
+
+.button:hover {
+    box-shadow: -4px 1px 25px -10px whitesmoke;
+    text-decoration: underline;
+}
